@@ -4,6 +4,7 @@ RUN MY DOCKER
 
 ## Prerequisites
 
+-setx DOCKER_HOST tcp://localhost:2375-
 - `docker-compose -f docker-compose-dev.yml down -v && docker-compose -f docker-compose-dev.yml up -d`
 - start the dev server - runmydocker-back directory
 - once containers are up and server is running on 8081, connect to the db and create new user with:
