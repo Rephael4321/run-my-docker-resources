@@ -31,7 +31,7 @@ export default function Home() {
       </ul>
 
       <h2 className="text-2xl font-bold mb-4">Files</h2>
-      <ul className="space-y-4">
+      <ul className="space-y-4 mb-8">
         <li className="bg-white shadow p-4 rounded-lg">
           <p className="font-medium mb-1">Frontend source code - OLD:</p>
           <a
@@ -50,6 +50,39 @@ export default function Home() {
           >
             docker-startup.MD
           </a>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Docker Compose YAML:</p>
+          <a
+            href="/docker-compose.yaml"
+            className="text-blue-600 hover:underline"
+          >
+            docker-compose.yaml
+          </a>
+        </li>
+      </ul>
+
+      <h2 className="text-2xl font-bold mb-4">Emails</h2>
+      <ul className="space-y-4 mb-8">
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p>Rephael Sintes - Backend Developer</p>
+          <p className="text-blue-600">rephael4321@gmail.com</p>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p>Natan Gershbein - Backend Developer & Project Mentor</p>
+          <p className="text-blue-600">natanger97@gmail.com</p>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p>Amit Persky - Backend Developer</p>
+          <p className="text-blue-600">amitnicetomeet@gmail.com</p>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p>Ella Or-Ya Hillel - Backend Developer</p>
+          <p className="text-blue-600">eaorya@gmail.com</p>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p>Mari - UX / UI</p>
+          <p className="text-blue-600">mari@m-product.design</p>
         </li>
       </ul>
     </div>
