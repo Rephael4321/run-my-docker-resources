@@ -35,11 +35,11 @@ export default function Home() {
         <li className="bg-white shadow p-4 rounded-lg">
           <p className="font-medium mb-1">Frontend source code - OLD:</p>
           <a
-            href="/run-my-docker-front-master.zip"
+            href="/run-my-docker-front-feat-local-natan-v3-new.zip"
             download
             className="text-blue-600 hover:underline"
           >
-            run-my-docker-front-master.zip
+            run-my-docker-front-feat-local-natan-v3-new.zip
           </a>
         </li>
         <li className="bg-white shadow p-4 rounded-lg">
@@ -58,6 +58,33 @@ export default function Home() {
             className="text-blue-600 hover:underline"
           >
             docker-compose.yaml
+          </a>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Install Docker & Docker Compose:</p>
+          <a
+            href="/docker-compose.yaml"
+            className="text-blue-600 hover:underline"
+          >
+            install-docker-docker-compose.sh
+          </a>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Get Limited Logs Lines Per Image:</p>
+          <a
+            href="/docker-compose.yaml"
+            className="text-blue-600 hover:underline"
+          >
+            get-limited-logs-lines-per-image.sh
+          </a>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Helpful Ubuntu Commands:</p>
+          <a
+            href="/docker-compose.yaml"
+            className="text-blue-600 hover:underline"
+          >
+            config.sh
           </a>
         </li>
       </ul>
