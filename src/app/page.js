@@ -28,6 +28,28 @@ export default function Home() {
             https://docs.google.com/spreadsheets/d/1ZpVP1Q3PFAGNm_R5UMNeasmrc4zCOD9FfjULuw2AoHw/edit?gid=0#gid=0
           </a>
         </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Newly Designed Pages by Mari</p>
+          <a
+            href="https://www.figma.com/design/EmZW5WD3Chns5IBnGOOM26/run-my-docker?node-id=8621-2411&t=PBHXcqxJrS9EwaZU-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline break-words"
+          >
+            https://www.figma.com/design/EmZW5WD3Chns5IBnGOOM26/run-my-docker?node-id=8621-2411&t=PBHXcqxJrS9EwaZU-1
+          </a>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Pages Workflow</p>
+          <a
+            href="https://www.figma.com/board/llTdjsBJy5N2ZtIv7v2m41/pages-map?node-id=0-1&t=uzDyYLJoBSZPPUrK-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline break-words"
+          >
+            https://www.figma.com/board/llTdjsBJy5N2ZtIv7v2m41/pages-map?node-id=0-1&t=uzDyYLJoBSZPPUrK-1
+          </a>
+        </li>
       </ul>
 
       <h2 className="text-2xl font-bold mb-4">Files</h2>
@@ -117,6 +139,10 @@ export default function Home() {
         <li className="bg-white shadow p-4 rounded-lg">
           <p>Mari - UX / UI</p>
           <p className="text-blue-600">mari@m-product.design</p>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p>Ayelet - Frontend Developer</p>
+          <p className="text-blue-600">https://youtu.be/o3Yd34Ft_Io</p>
         </li>
       </ul>
     </div>
