@@ -116,17 +116,26 @@ export default function Home() {
             config.sh
           </a>
         </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Endpoints to Components Mapping:</p>
+          <a
+            href="/endpoints-to-components-mapping.xlsx"
+            className="text-blue-600 hover:underline"
+          >
+            endpoints-to-components-mapping.xlsx
+          </a>
+        </li>
       </ul>
 
       <h2 className="text-2xl font-bold mb-4">Emails</h2>
       <ul className="space-y-4 mb-8">
         <li className="bg-white shadow p-4 rounded-lg">
-          <p>Rephael Sintes - Backend Developer</p>
-          <p className="text-blue-600">rephael4321@gmail.com</p>
-        </li>
-        <li className="bg-white shadow p-4 rounded-lg">
           <p>Natan Gershbein - Backend Developer & Project Mentor</p>
           <p className="text-blue-600">natanger97@gmail.com</p>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p>Rephael Sintes - Backend Developer</p>
+          <p className="text-blue-600">rephael4321@gmail.com</p>
         </li>
         <li className="bg-white shadow p-4 rounded-lg">
           <p>Amit Persky - Backend Developer</p>
@@ -137,12 +146,20 @@ export default function Home() {
           <p className="text-blue-600">eaorya@gmail.com</p>
         </li>
         <li className="bg-white shadow p-4 rounded-lg">
+          <p>Yaniv Partush - Backend Developer</p>
+          <p className="text-blue-600">Yanivpartush@gmail.com</p>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
           <p>Mari - UX / UI</p>
           <p className="text-blue-600">mari@m-product.design</p>
         </li>
         <li className="bg-white shadow p-4 rounded-lg">
           <p>Ayelet - Frontend Developer</p>
-          <p className="text-blue-600">https://youtu.be/o3Yd34Ft_Io</p>
+          <p className="text-blue-600">ayeletganot140@gmail.com</p>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p>Evyatar - Frontend Developer</p>
+          <p className="text-blue-600">evyatar.szlar@gmail.com</p>
         </li>
       </ul>
     </div>
