@@ -50,6 +50,39 @@ export default function Home() {
             https://www.figma.com/board/llTdjsBJy5N2ZtIv7v2m41/pages-map?node-id=0-1&t=uzDyYLJoBSZPPUrK-1
           </a>
         </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Run My Docker Dev</p>
+          <a
+            href="https://github.com/Rephael4321/run-my-docker-dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline break-words"
+          >
+            https://github.com/Rephael4321/run-my-docker-dev
+          </a>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Run My Docker Front</p>
+          <a
+            href="https://github.com/ayeletganot/run_my_docker"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline break-words"
+          >
+            https://github.com/ayeletganot/run_my_docker
+          </a>
+        </li>
+        <li className="bg-white shadow p-4 rounded-lg">
+          <p className="font-medium mb-1">Sumit - Payment Module</p>
+          <a
+            href="https://help.sumit.co.il/he/articles/5893615-payments-javascript-api"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline break-words"
+          >
+            https://help.sumit.co.il/he/articles/5893615-payments-javascript-api
+          </a>
+        </li>
       </ul>
 
       <h2 className="text-2xl font-bold mb-4">Files</h2>
